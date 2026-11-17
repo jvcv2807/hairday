@@ -1,0 +1,26 @@
+{
+  "name": "hairday",
+  "description": "Aplicação web para agendamento de corte de cabelo",
+  "author": "João Vitor Costa Vieira",
+  "scripts": {
+    "build": "NODE_PATH=./node_modules webpack",
+    "dev": "NODE_PATH=./node_modules webpack server",
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.13",
+    "@babel/preset-env": "^7.29.14",
+    "babel-loader": "^10.1.1",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
